@@ -1,6 +1,6 @@
 # ea-chat
 
-PHP web application test for Bunq
+PHP web application made for Bunq
 
 
 Test Description:
