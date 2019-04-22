@@ -1,10 +1,10 @@
-.message-container, .textarea-container{
+#message-container, .textarea-container{
     margin-left: 20%;
     margin-right: 20%;
     margin-top:0;
     width:60%;
 }
-.message-container{
+#message-container{
     height: 70%;
     background-color: silver;
     overflow-y: scroll;
