@@ -1,5 +1,5 @@
 <?php
-session_start();
+include "CustomSessionHandler.php";
 if($_SERVER['REQUEST_METHOD'] == 'POST' and isset($_POST['Enter'])){
     $_SESSION['name'] = $_POST['tb-name'];
 }

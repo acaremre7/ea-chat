@@ -1,5 +1,5 @@
 <?php
-session_start();
+include "CustomSessionHandler.php";
 if(!isset($_SESSION['name'])) {
     header("Location: /");
 }
