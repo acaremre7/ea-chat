@@ -73,7 +73,7 @@ function getUsers() {
             if(html) {
                 document.getElementById("users-container").innerHTML = html;
             }else{
-                document.getElementById("users-container").innerHTML = "Noone else is online to talk :( <br/> <br/> Hint: Try opening the chat application from another browser - or private session to talk with yourself ;)";
+                document.getElementById("users-container").innerHTML = "Noone else is online to talk :( <br/> <br/> Hint: Try opening the chat application from another browser at the same time to talk with yourself ;)";
             }
         } else {
             alert("Error while retrieving users");

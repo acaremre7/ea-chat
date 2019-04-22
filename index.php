@@ -1,7 +1,12 @@
 <?php
 include "CustomSessionHandler.php";
 if($_SERVER['REQUEST_METHOD'] == 'POST' and isset($_POST['Enter'])){
-    $_SESSION['name'] = $_POST['tb-name'];
+    $name = $_POST['tb-name'];
+    if(empty($name)){
+        echo "<center><span style='color:red'>Please enter a valid username.</span></center>";
+    }else{
+        $_SESSION['name'] = $name;
+    }
 }
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
