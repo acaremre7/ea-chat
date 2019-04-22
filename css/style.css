@@ -1,0 +1,34 @@
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:0;
+    background-color: silver;
+    width:60%;
+    height: 70%;
+    overflow-y: scroll;
+}
+.message-row-r, .message-row-s{
+    float:left;
+    width:100%;
+    font-family: Calibri, serif;
+    font-size:18px;
+}
+.message-received, .message-sent{
+    min-width:5%;
+    max-width:60%;
+    overflow-wrap: break-word;
+    min-height:20px;
+    border-radius: 10%;
+    padding: 10px;
+    margin:10px;
+}
+.message-received{
+    float:left;
+    margin-left:10%;
+    background-color: white;
+}
+.message-sent{
+    float: right;
+    margin-right:10%;
+    background-color: rgb(241,255,230);
+}
