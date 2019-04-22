@@ -37,7 +37,7 @@
     margin-right:10%;
     background-color: rgb(241,255,230);
 }
-.message-area{
+#message-area{
     width:90%;
     height: 100%;
     resize: none;
@@ -45,7 +45,7 @@
     font-family: Calibri, serif;
     font-size:18px
 }
-.btn-send{
+#btn-send{
     width:10%;
     height:100%;
     float:right;
@@ -53,5 +53,4 @@
     border-style:solid;
     border-color:black;
     font-weight: bold;
-
 }
