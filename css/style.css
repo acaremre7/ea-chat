@@ -1,13 +1,17 @@
-#message-container, .textarea-container{
+#message-container, .textarea-container, #users-container{
     margin-left: 20%;
     margin-right: 20%;
     margin-top:0;
     width:60%;
 }
-#message-container{
+#message-container, #users-container{
     height: 70%;
-    background-color: silver;
+    background-color: wheat;
     overflow-y: scroll;
+}
+#users-container {
+    border-style: solid;
+    border-width: 1px;
 }
 .textarea-container{
     height:10%;
@@ -72,4 +76,22 @@
 #bt-name{
     width:20%;
     height:30px
+}
+
+.user-line{
+    width:100%;
+    font-family: Calibri, serif;
+    font-size:18px;
+    min-height: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.user-name{
+    overflow-wrap: break-word;
+    width: 100%;
+    min-height: 50px;
 }
