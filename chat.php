@@ -10,7 +10,7 @@ if(!isset($recipient)){
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-    <title>Chat</title>
+    <title>Chat with <?php echo $recipient; ?></title>
     <link href='css/style.css' rel='stylesheet' type='text/css'/>
     <script src="js/main.js" type="text/javascript"></script>
 </head>
